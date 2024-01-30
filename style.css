@@ -3,20 +3,26 @@ body {
   margin: 0;
 }
 
+h1 {
+  padding-left: 120px;
+  margin-top: -30px; 
+}
+
 .topnav {
   overflow: hidden;
   background-color: skyblue;
+  padding-right: 90px;
 }
 
 .topnav a {
-  float: left;
+  float: right;
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 6px 16px;
+  padding-right: 30px;
   text-decoration: none;
-  font-size: 17px;
-  border-bottom: 3px solid transparent;
+  font-size: 25px;
 }
 
 .topnav a:hover {
