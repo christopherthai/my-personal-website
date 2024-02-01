@@ -1,19 +1,53 @@
+
+/* Style the page */
 body {
   background: skyblue;
   margin: 0;
 }
 
+/* Style the 'Christopher Thai' on the navigation bar */
 h1 {
   padding-left: 120px;
   margin-top: -30px; 
 }
 
+/* Style the big text, "I am Christopher Thai, Base out of New York", in the body of the page */
+h2 {
+  position: fixed;
+  font-size: 40px; 
+  bottom: 900px;
+  left: 100px;
+  width: 400px;
+}
+
+/* Style the small text, "I am currently a student", in the body of the page */
+p {
+  position: fixed;
+  font-size: 30px; 
+  bottom: 820px;
+  left: 100px;
+  width: 400px;
+}
+
+/* Style the image size and position on the page*/
+img {
+  border-radius: 50%;
+  width: 700px;
+  height: 700px;
+  position: fixed;
+  bottom: 400px;
+  left: 750px;
+}
+
+/* Style top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: skyblue;
   padding-right: 90px;
 }
 
+
+/* Style each tab of the navigation bar */
 .topnav a {
   float: right;
   display: block;
@@ -25,10 +59,13 @@ h1 {
   font-size: 25px;
 }
 
+
+/* Style the bottom hover line in the navigation bar */
 .topnav a:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid black;
 }
 
+/* Style the bottom active line in the navigation bar */
 .topnav a.active {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid black;
 }
