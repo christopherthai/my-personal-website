@@ -1,6 +1,11 @@
 
-/*
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript"
-document.querySelector("body").appendChild(h2);
-*/
+
+// Get Image ID value
+image = document.getElementById('Image');
+
+image.addEventListener('click', function(e)  {
+  
+  // hide image
+  image.style.visibility = 'hidden';
+
+});
