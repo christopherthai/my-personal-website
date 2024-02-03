@@ -36,12 +36,12 @@ function randomRgbColor() {
 // Convert Number to Hex
 function randomHexColor() {
 
-  let [r,g,b] =randomRgbColor();
+  let [r,g,b] = randomRgbColor();
 
   let hr = r.toString(16).padStart(2, '0');
   let hg = g.toString(16).padStart(2, '0');
   let hb = b.toString(16).padStart(2, '0');
-  
+
   return "#" + hr + hg + hb;
 }
 
